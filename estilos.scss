@@ -1,0 +1,98 @@
+$color_1: black;
+$color_2: #f4a1b5;
+$font-family_1: 'Montserrat', sans-serif;
+$background-color_1: #fce2ea;
+$background-color_2: #f4a1b5;
+
+div.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+div.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+header {
+	background-color: $background-color_1;
+}
+
+.card button {
+	margin: 20px 30px 30px;
+	border-radius: 10% !important;
+	border: 6px solid transparent;
+	color: $color_1;
+	font-size: 15px;
+	cursor: pointer;
+	background-color: $background-color_1;
+	transition: 0.5s ease-in-out;
+    box-shadow: 0 0 10px $color_2;
+    transition-duration: 0.4s;
+    transition-property: box-shadow, transform;
+}
+
+.card button {
+	&:hover {
+		background-color: $background-color_2;
+        box-shadow: 0 0 20px $color_2;
+        transform: scale(1.1);
+	}
+}
+
+.nav-item {
+	margin-right: 90px;
+}
+
+.navbar {
+	a {
+		&:hover {
+			color: $color_2;
+			
+		}
+	}
+}
+
+
+.carrusel {
+	margin-bottom: 50px;
+}
+
+.imagesection {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 30px;
+	object-fit: cover;
+    
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+.card {
+	margin-right: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	object-fit: cover;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+.sectiontext {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+	font-family: $font-family_1;
+}
+
+
+footer {
+	background-color: $background-color_1;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: $font-family_1;
+}

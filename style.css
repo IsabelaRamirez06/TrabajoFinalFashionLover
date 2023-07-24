@@ -1,0 +1,84 @@
+div.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+header {
+  background-color: #fce2ea;
+}
+
+.card button {
+  margin: 20px 30px 30px;
+  border-radius: 10% !important;
+  border: 6px solid transparent;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #fce2ea;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0 10px #f4a1b5;
+  transition-duration: 0.4s;
+  transition-property: box-shadow, transform;
+}
+
+.card button:hover {
+  background-color: #f4a1b5;
+  box-shadow: 0 0 20px #f4a1b5;
+  transform: scale(1.1);
+}
+
+.nav-item {
+  margin-right: 90px;
+}
+
+.navbar a:hover {
+  color: #f4a1b5;
+}
+
+.carrusel {
+  margin-bottom: 50px;
+}
+
+.imagesection {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.imagesection:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  object-fit: cover;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.sectiontext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background-color: #fce2ea;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
